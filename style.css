@@ -1,0 +1,181 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+body {
+    font-family: Bai Jamjuree, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: left
+}
+
+header {
+    background-color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+	color: black;
+}
+
+.nav {
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center; 
+}
+
+.nav a {
+    color: black;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+.nav a:hover {
+    color: #717744;
+}
+
+#logo {
+	height: 100px; 
+	vertical-align: middle;
+	margin-bottom: 10px;
+}
+
+#head {
+	text-align: center;
+	margin-top: 60px;
+	font-size: 250%;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: calc(100vh - 60px);
+  object-fit: cover;
+}
+
+
+.container-fluid {
+    padding: 50px;
+    margin: 0px;
+}
+
+.row {
+  padding: 10px 0;
+}
+
+
+.sectitle {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+    max-width: 400px;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.text {
+  max-width: 400px;
+  text-align: left;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto;
+  padding: 50px;
+}
+
+.mission-title, .owner-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.mission-text, .owner-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.colorsection {
+    background-color: #717744;
+    color: #ffffff;
+    padding: 50px;
+    text-align: center;
+}
+
+.colorsection h2 {
+    margin-top: 0;
+}
+
+.colorsection p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.btn {
+    background-color: #373D20;
+    border-color: #373D20;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #BCBB8D;
+    border-color: white;
+}
+
+
+a:hover {
+    color: #717744;
+}
+
+a:active {
+    color: #766153;
+}
+
+
+.join {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.form-container {
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb {
+    background-color: #BCBB8D;
+}
+
